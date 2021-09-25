@@ -18,6 +18,8 @@ int dfs(int src)
 
 int main(int argc, char **argv)
 {
+	ios_base::sync_with_stdio(false), cin.tie(nullptr);
+	
 	int n, p{};
 	cin >> n;
 
