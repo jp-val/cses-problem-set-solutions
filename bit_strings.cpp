@@ -1,20 +1,19 @@
 // JP Valdespino
 
-#include<iostream>
-
+#include<bits/stdc++.h>
 using namespace std;
 
-constexpr int inf = (int)1e9 + 7;
+constexpr int MOD = 1e9 + 7;
 
 int main(int argc, char **argv)
 {
 	int n;
 	cin >> n;
-
+	
 	int ans{ 1 };
 
 	for (int i = 0; i < n; i++)
-		ans = (ans * 2) % inf;
+		ans = (ans * 2) % MOD;
 	
 	cout << ans << "\n";
 	
